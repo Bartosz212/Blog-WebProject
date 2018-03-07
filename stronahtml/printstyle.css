@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+p {
+    text-indent: 3%;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ol ol {
+    list-style-type: lower-roman;
+}
+
+ol ol ol {
+    list-style-type: lower-greek;
+}
+
+img {
+    display: none !important;
+}
+
+p::first-letter {
+    font-size: 200%;
+}
+
+#menu a:hover {
+    cursor: default;
+}
+
+#menu {
+    visibility: hidden;
+}

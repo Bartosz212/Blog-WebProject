@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Kilka słów o formatowaniu</title>
+    <link rel="stylesheet" href="style1.css" type="text/css" media="screen" title="Domyślny" charset="utf-8"/>
+    <link rel="stylesheet" href="printstyle.css" type="text/css" media="print" charset="utf-8"/>
+    <link rel="alternate stylesheet" href="stylealternative.css" type="text/css" title= "Alternatywny" media="screen" charset="utf-8"/>
+</head>
+
+<body>
+<div id="page">
+    <div id="pagetitle">
+        <h1 id="title">Formatowanie tekstu</h1>
+    </div>
+    <div id="content">
+        <div id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="formatowanie.html">Formatowanie tekstu</a></li>
+                <li><a href="tabele.html">Tabela, lista, definicje</a></li>
+                <li><a href="obrazki.html">Biografia</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <div id="spis">
+                <h2>Spis treści</h2>
+                <ul>
+                    <li><a href="#format">Formatowanie tekstów</a></li>
+                    <li><a href="#pytania">Odpowiedzi na pytania</a></li>
+                </ul>
+            </div>
+            <h1 id="format">Formatowanie tekstów</h1>
+            <h2>Tu akapit testowy z formatowaniem tekstu, znowu Lorem Ipsum</h2>
+            <p><strong>Lorem Ipsum</strong> jest tekstem stosowanym jako przykładowy <b>wypełniacz</b> w przemyśle poligraficznym. Został po&nbsp;raz pierwszy użyty w&nbsp;XV&nbsp;w. przez nieznanego drukarza do&nbsp;wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.<br/> Spopularyzował się w&nbsp;latach 60. XX&nbsp;w. wraz z&nbsp;publikacją arkuszy <em>Letrasetu</em>, zawierających fragmenty Lorem Ipsum, a ostatnio z&nbsp;zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak <i>Aldus PageMaker</i>.</p>
+            <h2>A tu kilka innych przykładów formatowania</h2>
+            <p><br/> Kod napisany znacznikiem code
+                <code>
+                    int main(int argc, char *argv[])
+                    {
+                    char nazwa[20];
+                    return 0;
+                    }</code>
+                Kod napisany znacznikiem samp
+                <samp>
+                    int main(int argc, char *argv[])
+                    {
+                    char nazwa[20];
+                    return 0;
+                    }
+                    </samp>
+                <br/>A tu wzory matematyczne z indeksami:<br/>
+                x<sup>5</sup>&gt;x<sub>n</sub>
+                <br/>
+                x<sup>-2</sup>&lt;x<sub>n</sub>
+                <br/>
+            </p>
+            <h1 id="pytania">Odpowiedzi na pytania</h1>
+            <h2>Jaka jest różnica między znacznikami i oraz em? Czy zawsze dają identyczne wyniki?</h2>
+            <p>Znacznika  &lt;em&gt; używa się aby zaakcentować, podkreślić tekst. Jeśli znacznik ten nie został nadpisany w&nbsp;pliku CSS oznacza zapisanie tekstu kursywą. Znacznik  &lt;i&gt; oznacza tylko zapisanie tekstu kursywą.</p>
+            <h2> Jaka jest różnica między znacznikami b oraz strong? Czy zawsze dają identyczne wyniki?</h2>
+            <p>Znacznik  &lt;b&gt; oznacza tylko pogrubienie tekstu w&nbsp;nim zawartego, natomiast  &lt;strong&gt; oznacza zaznaczenie tekstu jako ważny, może to być przez pogrubienie tekstu, choć można ustawić inne opcje (np. podkreślenie tekstu).</p>
+            <h2> Jaka jest różnica między znacznikami code oraz samp? Czy zawsze dają identyczne wyniki?</h2>
+            <p>W&nbsp;znaczniku &lt;code&gt; zapisuje się kod programów, natomiast  &lt;samp&gt; służy do wyświetlania outputu programu</p>
+            <h2> Jaka jest różnica pomiędzy fragmentem strony sformatowanej tak: &lt;p&gt;…&lt;/p&gt;&lt;p&gt;…&lt;/p&gt; oraz fragmentem o&nbsp;następującej postaci: &lt;p&gt;…&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;?</h2>
+            <p>W&nbsp;pierwszym przypadku tekst znajduje się w&nbsp;dwóch oddzielnych akapitach. W&nbsp;drugim przypadku całość jest jednym akapitem rozdzielonym za pomocą znacznika &lt;br/&gt;</p>
+
+            <p>
+                <a href="http://validator.w3.org/check?uri=referer"><img
+                        src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+            </p>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                         alt="Poprawny CSS!" />
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
